@@ -885,7 +885,7 @@ const products = [
         img: <GramImage />
     },
     {
-        link: "https://punch.sale/",
+        link: "https://www.instagram.com/punch__ukraine?igsh=MWI0eGN1dmVraTdicA%3D%3D",
         img: <PunchImage />
     },
 ]
