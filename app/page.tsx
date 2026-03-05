@@ -893,7 +893,7 @@ const products = [
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-between p-10 pb-[23px] max-lg:px-[16px] max-lg:py-[20px] relative bg-black">
-      <Image className="opacity-80 z-0" src={'/background.jpg'} fill={true} alt="background" />
+      <Image className="opacity-80 z-0 object-cover" src={'/background.jpg'} fill={true} alt="background" />
       <header className={"z-10 w-full flex items-center justify-between"}>
           <a href="./" target="_blank" className="max-lg:w-[123px] flex">
               <LogoImage />
