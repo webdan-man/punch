@@ -3,12 +3,12 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
 
 const montserrat = Montserrat({
-  variable: "--font-montserrat",
-  subsets: ["cyrillic"],
+    subsets: ["latin", "cyrillic"],
 });
 
 export const metadata: Metadata = {
-  title: "punch",
+  title: "Інтернет-магазин наборів для самозамісу рідин Punch",
+  description: "Магазин Punch пропонує недорого набори для самозамісу ✓ Великий вибір ✓ Якісний товар ✓ Офіційна гарантія ✈ Швидка доставка по Україні ☎"
 };
 
 export default function RootLayout({
@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${montserrat.variable} antialiased`}
+        className={`${montserrat.className} antialiased`}
       >
         {children}
       </body>
