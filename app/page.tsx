@@ -901,7 +901,7 @@ export default function Home() {
           <div className="flex gap-[10px]">
               <a href="https://t.me/+xNmdxzQQJnw1MWIy" target="_blank" className="rounded-full bg-[rgba(22,24,22,1)] transition-all duration-300 hover:bg-[rgba(10,237,10,1)]"><TelegramImage /></a>
               <a href="https://www.instagram.com/punch__ukraine?igsh=MWI0eGN1dmVraTdicA==" target="_blank" className="rounded-full bg-[rgba(22,24,22,1)] transition-all duration-300 hover:bg-[rgba(10,237,10,1)]"><InstagramImage /></a>
-              <a href="https://www.tiktok.com/@punch_ukraine" target="_blank" className="rounded-full bg-[rgba(22,24,22,1)] transition-all duration-300 hover:bg-[rgba(10,237,10,1)]"><TicTocImage /></a>
+              <a href="https://www.tiktok.com/@punch__ukraine?_r=1&_t=ZS-94RDM1pFOPC" target="_blank" className="rounded-full bg-[rgba(22,24,22,1)] transition-all duration-300 hover:bg-[rgba(10,237,10,1)]"><TicTocImage /></a>
           </div>
       </header>
       <main className="flex flex-col w-full z-10 items-center justify-center max-lg:mt-[20px] mt-[40px]">
