@@ -386,7 +386,7 @@ export default function Home() {
           <p className="text-center max-lg:mt-[40px] mt-[60px] max-lg:text-[16px] max-lg:leading-[24px] text-[20px] leading-[28px] text-[rgba(245,247,245,1)]"><span className={`${benzin.className} max-lg:text-[24px] max-lg:leading-[32px] text-[32px] leading-[40px] font-semibold`}>Офлайн партнери</span></p>
           <div className="grid grid-cols-4 max-lg:mt-[24px] mt-[41px] max-w-[1848px] items-center justify-center max-lg:grid-cols-2 w-full">
               {offlinePartners.map((partner, index) => (
-                  <a key={`offline-${index}`} href={partner.link} target="_blank" className="flex p-[20px] items-center justify-center max-lg:p-[9px] hover:border-[rgba(10,237,10,1)] hover:bg-[linear-gradient(180deg,rgba(12,12,12,0)_0%,rgba(10,237,10,0.2)_100%)] max-lg:h-[120px] h-[clamp(120px,27vh,308px)] max-h-[308px] w-full flex items-center justify-center bg-[#0C0C0C] border border-[#000000] rounded-[10px] transition-all duration-300">
+                  <a key={`offline-${index}`} href={partner.link} target="_blank" className="flex p-[20px] items-center justify-center max-lg:p-[9px] hover:border-[rgba(10,237,10,1)] hover:bg-[linear-gradient(180deg,rgba(12,12,12,0)_0%,rgba(10,237,10,0.2)_100%)] max-lg:h-[120px] h-[clamp(120px,27vh,308px)] max-h-[308px] w-full flex items-center justify-center bg-[#0C0C0C] border border-[#000000] rounded-[10px] transition-all duration-300 [&_img]:!max-w-[53.333%] [&_svg]:!max-w-[53.333%]">
                       {partner.img}
                   </a>
               ))}
