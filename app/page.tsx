@@ -374,7 +374,7 @@ export default function Home() {
           </div>
       </header>
       <main className="flex flex-col w-full z-10 items-center justify-center max-lg:mt-[20px] mt-[40px]">
-          <h1 className={`${benzin.className} text-[56px] max-lg:text-[32px] max-lg:leading-[40px] leading-[64px] text-[rgba(245,247,245,1)] font-extrabold text-center`}>ДЕ ПРИДБАТИ <span className="text-[#0AED0A]">PUNCH?</span></h1>
+          <h1 className={`${benzin.className} text-[56px] max-lg:text-[32px] max-lg:leading-[40px] leading-[64px] text-[rgba(245,247,245,1)] font-extrabold text-center [text-shadow:0_2px_25px_#000]`}>ДЕ ПРИДБАТИ <span className="text-[#0AED0A]">PUNCH?</span></h1>
           <p className="text-center max-lg:mt-[16px] mt-[24px] max-lg:text-[16px] max-lg:leading-[24px] text-[20px] leading-[28px] text-[rgba(245,247,245,1)]"><span className={`${benzin.className} max-lg:text-[24px] max-lg:leading-[32px] text-[32px] leading-[40px] font-semibold [text-shadow:0_2px_25px_#000]`}>Список партнерів</span><br/><span className="[text-shadow:0_2px_25px_#000]"> Тиць на логотип, щоб замовити:</span></p>
           <div className="grid grid-cols-6 max-lg:mt-[24px] mt-[41px] max-w-[1848px] items-center justify-center max-lg:grid-cols-3 w-full">
               {products.map(product => (
