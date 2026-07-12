@@ -61,6 +61,18 @@ const VapeHubImage = () => {
     )
 }
 
+const VapeHubOfflineImage = () => {
+    return (
+        <svg className="max-w-[80%] max-h-[80%] h-auto w-auto object-contain" viewBox="0 0 148 98" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M96.4234 4.65186C98.892 4.65186 101.344 5.28233 103.425 6.61137C107.85 9.43521 109.052 14.1194 108.937 20.4375C108.907 22.0507 108.965 23.4183 108.654 24.8864C107.532 30.1774 103.854 33.9781 98.2749 34.7699C95.3889 35.1798 92.4155 34.761 89.3608 34.946L89.349 61.4646L81.6012 61.4705L81.5923 4.65333H96.4249L96.4234 4.65186ZM101.347 14.929C100.634 8.93794 93.527 10.6074 89.3475 10.375V29.1991L95.7929 29.1947C97.372 29.1947 99.2502 28.5479 100.193 27.2204C102.006 24.6689 101.68 17.7321 101.346 14.9305L101.347 14.929Z" fill="black"/>
+            <path d="M122.416 10.3691H136.249V4.65186H114.318V61.469L136.249 61.4883V55.4588L122.45 55.4321L122.411 34.9045C122.785 34.9045 133.857 34.9282 133.857 34.9282L133.881 29.2021L122.416 29.1977V10.3691Z" fill="black"/>
+            <path d="M27.4404 45.1538C27.4404 44.5085 19.3996 5.70142 19.1746 4.6521H11.7524L23.9994 61.456C26.5066 61.456 28.4824 61.456 31.0368 61.4471L43.1299 4.6521H36.0452C36.0452 4.6521 28.1701 41.5929 27.4419 45.1538H27.4404Z" fill="black"/>
+            <path d="M64.0467 4.65187H56.2871C56.2871 4.65187 46.8047 50.4268 46.2793 52.8866L49.7395 47.381H65.7028L68.4349 61.4543H75.533C75.1304 59.477 64.1947 6.24287 64.0467 4.65039V4.65187ZM55.254 41.6474C55.254 41.6474 59.8124 17.818 60.1306 16.1308C61.2273 22.0922 64.6032 40.0461 64.911 41.6474C64.7615 41.6918 55.254 41.6474 55.254 41.6474Z" fill="black"/>
+            <path d="M122.68 35.5705C121.817 34.4708 120.55 34.0017 119.437 34.8704C118.194 35.8413 87.2634 83.8525 87.2634 83.8525C86.7884 84.5836 86.7721 85.1771 85.9862 85.6833C84.4322 86.6837 83.2008 88.1534 81.0193 88.6862C83.0691 82.5975 86.2008 77.3716 89.7987 72.2759C90.216 71.6854 90.1835 70.1655 89.8757 69.5971C88.5821 68.1911 86.4509 68.1245 84.6379 68.0609C82.9803 68.0017 81.7771 68.2355 80.7884 69.7703C77.303 75.1753 72.7076 81.4608 65.2455 82.2452C67.5306 78.3084 70.0007 74.8186 72.4398 71.1038C72.7994 70.5562 75.866 66.9672 74.0633 65.7551C73.3677 65.2874 68.9766 63.2805 67.7704 64.4556C65.5193 66.646 60.101 75.7332 58.0749 78.9789C56.7991 81.0213 56.0754 83.185 56.996 85.4539L49.2718 89.3936C49.2718 89.3936 56.142 75.9996 57.3364 73.1551C58.658 70.0071 55.6965 65.9874 53.3315 65.4739C52.1786 65.2237 51.1174 65.5419 50.0918 66.0703L50.0844 66.0733C50.0592 66.0866 50.034 66.0999 50.0089 66.1132L44.9044 68.8053C44.9044 68.8053 61.1118 43.9576 62.4779 40.9976C63.5982 38.5719 61.7882 35.0673 59.4084 34.2118C58.1252 33.8877 57.0759 35.5705 56.5534 36.3904L25.7946 84.4341C25.2307 85.3147 24.1148 86.4928 24.4508 87.3867C25.1478 89.2515 27.0215 89.364 28.6362 89.3699C30.609 89.3759 32.4324 89.1539 33.3959 87.2876C35.2533 83.6941 37.7574 80.5995 40.6864 77.7771C43.1609 75.3913 46.0558 73.5798 49.5575 73.1551C49.8846 73.1151 50.114 73.1506 50.2427 73.3327C50.404 73.5606 45.1308 80.9206 44.2428 82.0543C42.523 84.2477 40.864 86.9353 41.6439 89.8761C41.8896 90.8041 42.6015 91.4464 43.3829 91.9422C44.8851 92.8923 46.6448 93.3526 48.4223 93.3526H48.6784C49.368 93.3526 50.037 93.1188 50.5772 92.6881L57.807 86.8362C58.4064 87.9299 59.2352 88.3591 59.9708 88.8978C61.2036 89.8006 62.6955 90.3142 64.2939 89.8835C65.2751 89.6186 65.7487 88.6225 66.5094 88.069C68.9929 86.2619 71.497 84.7849 74.1566 83.0903C73.4092 84.7139 72.8912 85.8638 72.5537 87.3808C72.2947 88.5456 73.6608 89.6452 74.6065 90.181L77.6287 91.8978C78.8807 92.6097 84.5269 88.7187 85.9004 87.8574C86.4628 87.5051 87.4336 86.851 88.033 86.5417C89.4435 87.3068 90.3137 87.0049 91.702 86.8776C94.7996 90.1514 99.099 90.2979 103.193 89.4898C105.109 89.1109 107.276 90.3453 109.04 88.2629C110.1 87.0108 117.925 81.4889 120.065 78.8827L107.83 85.3636C110.562 82.0735 113.821 77.2443 115.564 73.4792C117.91 68.4131 116.708 65.9904 116.064 64.8153C115.357 63.5232 111.999 61.2307 110.906 61.6392C112.533 59.8247 121.204 46.2575 123.726 42.2941C124.178 41.5867 124.414 40.7667 124.414 39.9276C124.414 39.1743 124.225 38.4328 123.853 37.7771C123.458 37.0815 123.222 36.2616 122.683 35.5719L122.68 35.5705ZM110.403 70.5932C109.563 72.7421 108.497 74.8985 106.774 77.2976C104.818 80.0237 97.733 86.2782 97.027 82.5782C97.6531 79.6567 99.1183 77.0682 100.686 74.5907C102.592 71.5774 104.72 68.0594 108.376 66.6297C110.115 65.9504 110.983 69.1147 110.405 70.5932H110.403Z" fill="#2E601D"/>
+        </svg>
+    )
+}
+
 const DartVaperImage = () => {
     return (
         <Image className="max-w-[80%] max-h-[80%] h-auto w-auto object-contain" unoptimized src="/Dart vaper.svg" alt="Dart vaper" width={200} height={80} />
@@ -299,8 +311,8 @@ const products = [
         img: <TerraVapeImage />
     },
     {
-        link: "https://vandalvape.life/index.php?route=product/search&search=punch",
-        img: <VandalVapeImage />
+        link: "https://vapery.com.ua/ru/zhidkosti-dlya-vejpa/246?utm_source=ig&utm_medium=social&utm_content=link_in_bio",
+        img: <VaperyImage />
     },
     {
         link: "https://pod-shop.com.ua/category/liquids/-punch/punch/",
@@ -315,8 +327,8 @@ const products = [
         img: <GramImage />
     },
     {
-        link: "https://vapery.com.ua/ru/zhidkosti-dlya-vejpa/246?utm_source=ig&utm_medium=social&utm_content=link_in_bio",
-        img: <VaperyImage />
+        link: "https://vandalvape.life/index.php?route=product/search&search=punch",
+        img: <VandalVapeImage />
     },
 ]
 
@@ -347,7 +359,7 @@ const offlinePartners = [
     },
     {
         link: 'https://www.instagram.com/vapehub_official_?igsh=dGR6aTN4ejlybWFm',
-        img: <VapeHubImage />
+        img: <VapeHubOfflineImage />
     },
     {
         link: 'https://www.instagram.com/vapery_ua?igsh=MWdiemdzYXpoMnBjcg==',
@@ -377,8 +389,8 @@ export default function Home() {
           <h1 className={`${benzin.className} text-[56px] max-lg:text-[32px] max-lg:leading-[40px] leading-[64px] text-[rgba(245,247,245,1)] font-extrabold text-center [text-shadow:0_2px_25px_#000]`}>ДЕ ПРИДБАТИ <span className="text-[#0AED0A]">PUNCH?</span></h1>
           <p className="text-center max-lg:mt-[16px] mt-[24px] max-lg:text-[16px] max-lg:leading-[24px] text-[20px] leading-[28px] text-[rgba(245,247,245,1)]"><span className={`${benzin.className} max-lg:text-[24px] max-lg:leading-[32px] text-[32px] leading-[40px] font-semibold [text-shadow:0_2px_25px_#000]`}>Список партнерів</span><br/><span className="[text-shadow:0_2px_25px_#000]"> Тиць на логотип, щоб замовити:</span></p>
           <div className="grid grid-cols-6 max-lg:mt-[24px] mt-[41px] max-w-[1848px] items-center justify-center max-lg:grid-cols-3 w-full">
-              {products.map(product => (
-                  <a key={product.link} href={product.link} target="_blank" className="flex p-[20px] items-center justify-center  max-lg:p-[9px] hover:border-[rgba(10,237,10,1)] hover:bg-[linear-gradient(180deg,rgba(12,12,12,0)_0%,rgba(10,237,10,0.2)_100%)] max-lg:h-[120px] h-[clamp(120px,27vh,308px)] max-h-[308px] w-full flex items-center justify-center bg-[#0C0C0C] border-2 border-white rounded-[10px] transition-all duration-300">
+              {products.map((product, index) => (
+                  <a key={product.link} href={product.link} target="_blank" className={`flex p-[20px] items-center justify-center max-lg:p-[9px] hover:border-[rgba(10,237,10,1)] hover:bg-[linear-gradient(180deg,rgba(12,12,12,0)_0%,rgba(10,237,10,0.2)_100%)] max-lg:h-[120px] h-[clamp(120px,27vh,308px)] max-h-[308px] w-full flex items-center justify-center border-2 border-white rounded-[10px] transition-all duration-300 ${[1, 8, 11].includes(index) ? "bg-[#F30371]" : [2, 4, 6].includes(index) ? "bg-[#55F91B]" : "bg-[#0C0C0C]"}${[2, 4, 6].includes(index) ? " [&_path]:!fill-black" : ""}${index === 11 ? " [&_img]:brightness-0 [&_img]:invert" : ""}`}>
                       {product.img}
                   </a>
               ))}
@@ -386,7 +398,7 @@ export default function Home() {
           <p className="text-center max-lg:mt-[40px] mt-[60px] max-lg:text-[16px] max-lg:leading-[24px] text-[20px] leading-[28px] text-[rgba(245,247,245,1)] [text-shadow:0_2px_25px_#000]"><span className={`${benzin.className} max-lg:text-[24px] max-lg:leading-[32px] text-[32px] leading-[40px] font-semibold`}>Офлайн партнери</span></p>
           <div className="grid grid-cols-4 max-lg:mt-[24px] mt-[41px] max-w-[1848px] items-center justify-center max-lg:grid-cols-2 w-full">
               {offlinePartners.map((partner, index) => (
-                  <a key={`offline-${index}`} href={partner.link} target="_blank" className="flex p-[20px] items-center justify-center max-lg:p-[9px] hover:border-[rgba(10,237,10,1)] hover:bg-[linear-gradient(180deg,rgba(12,12,12,0)_0%,rgba(10,237,10,0.2)_100%)] max-lg:h-[120px] h-[clamp(120px,27vh,308px)] max-h-[308px] w-full flex items-center justify-center bg-[#0C0C0C] border-2 border-white rounded-[10px] transition-all duration-300 [&_img]:!max-w-[53.333%] [&_svg]:!max-w-[53.333%]">
+                  <a key={`offline-${index}`} href={partner.link} target="_blank" className={`flex p-[20px] items-center justify-center max-lg:p-[9px] hover:border-[rgba(10,237,10,1)] hover:bg-[linear-gradient(180deg,rgba(12,12,12,0)_0%,rgba(10,237,10,0.2)_100%)] max-lg:h-[120px] h-[clamp(120px,27vh,308px)] max-h-[308px] w-full flex items-center justify-center border-2 border-white rounded-[10px] transition-all duration-300 [&_img]:!max-w-[53.333%] [&_svg]:!max-w-[53.333%] ${index === 1 ? "bg-[#F30371]" : index === 6 ? "bg-[#55F91B]" : "bg-[#0C0C0C]"}`}>
                       {partner.img}
                   </a>
               ))}
