@@ -281,6 +281,18 @@ const ParilkaImage = () => {
         )
 }
 
+const KalyanImage = () => {
+        return (
+            <Image className="max-w-[80%] max-h-[80%] h-auto w-auto object-contain" unoptimized src="/Kalyan.svg" alt="Kalyan City" width={200} height={80} />
+        )
+}
+
+const DymokImage = () => {
+        return (
+            <Image className="max-w-[80%] max-h-[80%] h-auto w-auto object-contain" unoptimized src="/Dymok-white.png" alt="Dymok" width={200} height={80} />
+        )
+}
+
 const products = [
     {
         link: 'https://dartvaper.ua/ua/catalog/nabory-premiks/brand-punch',
@@ -329,6 +341,14 @@ const products = [
     {
         link: "https://vandalvape.life/index.php?route=product/search&search=punch",
         img: <VandalVapeImage />
+    },
+    {
+        link: "https://kalyan-city.com.ua/",
+        img: <KalyanImage />
+    },
+    {
+        link: "https://dymok.net.ua/ua/",
+        img: <DymokImage />
     },
 ]
 
@@ -388,9 +408,9 @@ export default function Home() {
       <main className="flex flex-col w-full z-10 items-center justify-center max-lg:mt-[20px] mt-[40px]">
           <h1 className={`${benzin.className} text-[56px] max-lg:text-[32px] max-lg:leading-[40px] leading-[64px] text-[rgba(245,247,245,1)] font-extrabold text-center [text-shadow:0_2px_25px_#000]`}>ДЕ ПРИДБАТИ <span className="text-[#0AED0A]">PUNCH?</span></h1>
           <p className="text-center max-lg:mt-[16px] mt-[24px] max-lg:text-[16px] max-lg:leading-[24px] text-[20px] leading-[28px] text-[rgba(245,247,245,1)]"><span className={`${benzin.className} max-lg:text-[24px] max-lg:leading-[32px] text-[32px] leading-[40px] font-semibold [text-shadow:0_2px_25px_#000]`}>Список партнерів</span><br/><span className="[text-shadow:0_2px_25px_#000]"> Тиць на логотип, щоб замовити:</span></p>
-          <div className="grid grid-cols-6 max-lg:mt-[24px] mt-[41px] max-w-[1848px] items-center justify-center max-lg:grid-cols-3 w-full">
+          <div className="grid grid-cols-7 max-lg:mt-[24px] mt-[41px] max-w-[1848px] items-center justify-center max-lg:grid-cols-3 w-full">
               {products.map((product, index) => (
-                  <a key={product.link} href={product.link} target="_blank" className={`flex p-[20px] items-center justify-center max-lg:p-[9px] hover:border-[rgba(10,237,10,1)] hover:bg-[linear-gradient(180deg,rgba(12,12,12,0)_0%,rgba(10,237,10,0.2)_100%)] max-lg:h-[120px] h-[clamp(120px,27vh,308px)] max-h-[308px] w-full flex items-center justify-center border-2 border-white rounded-[10px] transition-all duration-300 ${[1, 8, 11].includes(index) ? "bg-[#F30371]" : [2, 4, 6].includes(index) ? "bg-[#55F91B]" : "bg-[#0C0C0C]"}${[2, 4, 6].includes(index) ? " [&_path]:!fill-black" : ""}${index === 11 ? " [&_img]:brightness-0 [&_img]:invert" : ""}`}>
+                  <a key={product.link} href={product.link} target="_blank" className={`flex p-[20px] items-center justify-center max-lg:p-[9px] hover:border-[rgba(10,237,10,1)] hover:bg-[linear-gradient(180deg,rgba(12,12,12,0)_0%,rgba(10,237,10,0.2)_100%)] max-lg:h-[120px] h-[clamp(120px,27vh,308px)] max-h-[308px] w-full flex items-center justify-center border-2 border-white rounded-[10px] transition-all duration-300 ${[1, 8, 11].includes(index) ? "bg-[#F30371]" : [2, 4, 6, 12].includes(index) ? "bg-[#55F91B]" : "bg-[#0C0C0C]"}${[2, 4, 6, 12].includes(index) ? " [&_path]:!fill-black" : ""}${index === 11 ? " [&_img]:brightness-0 [&_img]:invert" : ""}`}>
                       {product.img}
                   </a>
               ))}
